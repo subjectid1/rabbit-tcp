@@ -4,7 +4,7 @@ rabbit-server:
     - "9891:443/tcp"
   environment:
     - MODE=s
-    - PASSWORD=password
+    - PASSWORD=170826
     - RABBITADDR=:443
     - VERBOSE=2
   restart: always
